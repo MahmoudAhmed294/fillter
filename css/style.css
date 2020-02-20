@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+border: none;
+list-style: none;
+text-decoration: none;
+
+}
+.row{
+    width: 80%;
+margin:0 auto;
+    overflow: hidden;
+}
+.continer .our-portfolio{
+position: relative;
+text-align: center;
+margin:3%;
+
+}
+.continer .our-portfolio .header-page{
+    padding: 2%;
+
+}
+
+.continer .our-portfolio .header-page h1 b{
+font-size: 40px;
+}
+.continer .our-portfolio .header-page h1{
+    padding-bottom: 2%;
+    
+}
+.continer .our-portfolio .header-page p{
+    font-size: 18px;
+}
+
+.continer .our-portfolio .top-btn_header > button{
+color: black;
+background: white;
+margin-right: 2%;
+text-align: center;
+align-content: center;
+padding: 10px;
+
+
+
+
+
+
+
+}
+.continer .our-portfolio .top-btn_header > button:hover{
+    background-color: red;
+    color: white;
+    border-radius: 10%;
+
+}
+.continer .continer_imgs{
+    display: flex;
+flex-wrap: wrap;
+overflow: hidden;
+position: relative;
+
+}
+
+.continer .continer_imgs .img_content{
+    margin: 0;
+    display:  inline-flex;
+    padding: 0;
+    height: 360px;
+    width: 359px;
+    position: relative;
+    overflow: hidden;
+
+}
+.continer .continer_imgs .img_content img{
+width: 359px;
+height: 360px;
+
+top: 0;
+}
+.continer .continer_imgs .img_content .social_media_icons{
+    position: absolute;
+    text-align: center;
+    top: 10%;    
+
+background-color: black;
+/* width: 20px; */
+/* height: 16%; */
+overflow: hidden;
+padding: 4px;
+left: -60px;
+
+/* z-index: 2; */
+
+}
+.continer .continer_imgs .img_content .social_media_icons ul li{
+    padding: 8px 8px;
+
+}
+
+.continer .continer_imgs .img_content .social_media_icons ul li a{
+    text-align: center;
+    align-content: center;
+    color: red;
+    font-size: 20px;
+
+}
+.continer .continer_imgs .img_content:hover .social_media_icons{
+left: 0;
+transition: .5s;
+}
+
+.continer .continer_imgs .img_content .img_hover:hover{
+filter: blur(6px);
+/* filter: drop-shadow(10px); */
+transition: ease-in-out .5s;
+
+}
+.continer_imgs .img_content .projact_name{
+    position: absolute;
+    color: black;
+text-align: center;
+/* display: inline-block; */
+z-index: 0;
+left: 30%;
+bottom: -50%;
+/* width: 100%; */
+/* height: 100%; */
+align-content: center;
+}
+
+.continer .continer_imgs .img_content:hover .projact_name{
+bottom: 50%;
+transition: ease-in-out .5s;
+}
+.continer .continer_imgs .img_content .hover_1_link{
+    position: absolute;
+    background-color: wheat;
+height: 100%;
+width: 2px;
+bottom: -400px;
+z-index: 0;
+margin: 0 0 0 20px;
+}
+.continer .continer_imgs .img_content:hover .hover_1_link{
+    transition: ease-in-out 1s;
+    bottom: 0;
+}
